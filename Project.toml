@@ -1,7 +1,7 @@
 name = "PackedIntegers"
-uuid = "7c0bfd36-8adf-4958-a1b0-362003732c56"
-authors = ["Ujjwal Panda <ujjwalpanda97@gmail.com> and contributors"]
 version = "0.0.1"
+uuid = "7c0bfd36-8adf-4958-a1b0-362003732c56"
+authors = ["Ujjwal Panda <ujjwalpanda97@gmail.com>"]
 
 [compat]
-julia = "1.8"
+julia = "1.9"
