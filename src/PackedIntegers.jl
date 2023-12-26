@@ -33,7 +33,7 @@ end
 function unpack!(Y, X::AbstractArray{UInt8}; n=1)
     if n == 1
         for i ∈ eachindex(X)
-            @inbounds for j ∈ 0:7
+            for j ∈ 0:7
                 Y[(i*8)-j] = (X[i] >> j) & 1
             end
         end
